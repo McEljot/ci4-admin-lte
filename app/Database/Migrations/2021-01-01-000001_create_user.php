@@ -11,7 +11,7 @@ class CreateLogin extends Migration
     {
         $this->db->simpleQuery("
         CREATE TABLE `user` (
-            `id` INT(11) NOT NULL AUTO_INCREMENT,
+            `rowid` INT(11) NOT NULL AUTO_INCREMENT,
             `name` VARCHAR(255) NULL DEFAULT NULL,
             `email` VARCHAR(255) NULL DEFAULT NULL,
             `avatar` VARCHAR(255) NULL DEFAULT NULL,
